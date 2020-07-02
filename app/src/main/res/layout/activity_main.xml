@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="430dp"
+        android:layout_height="230dp"
+        android:contentDescription="@string/covid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/covid" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="19dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/covid"
+        android:textColor="@color/letra"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnCreate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btnCreate"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCreate"
+        android:layout_width="253dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/Crearcuenta"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+        android:textColor="@color/letra"
+        android:textSize="20sp"
+        android:theme="@style/MatButton"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLogin"
+        android:layout_width="253dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/inicio"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+        android:textColor="@color/letra"
+        android:textSize="20sp"
+        android:theme="@style/MatButton"
+        app:layout_constraintBottom_toTopOf="@+id/btnFacebook"
+        app:layout_constraintEnd_toEndOf="@+id/btnCreate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCreate" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/btnFacebook"
+        android:layout_width="253dp"
+        android:layout_height="43dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="109dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFacebook">
+
+    </ProgressBar>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

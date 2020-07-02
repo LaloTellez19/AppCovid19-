@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/continentes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo">
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="21dp"
+        android:text="@string/username"
+        android:textColor="@color/letra"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/europa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"></TextView>
+
+    <ImageButton
+        android:id="@+id/europa"
+        android:layout_width="169dp"
+        android:layout_height="273dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="8dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/europa" />
+
+    <ImageButton
+        android:id="@+id/asia"
+        android:layout_width="169dp"
+        android:layout_height="273dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="8dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/asi" />
+
+    <ImageButton
+        android:id="@+id/africa"
+        android:layout_width="169dp"
+        android:layout_height="273dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginRight="8dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/europa"
+        app:srcCompat="@drawable/africa" />
+
+    <ImageButton
+        android:id="@+id/america"
+        android:layout_width="169dp"
+        android:layout_height="273dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginRight="8dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/europa"
+        app:srcCompat="@drawable/america" />
+
+    <ImageButton
+        android:id="@+id/oceania"
+        android:layout_width="169dp"
+        android:layout_height="273dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginRight="32dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/africa"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/oceania" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

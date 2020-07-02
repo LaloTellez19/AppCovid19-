@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryDark">#01579B</item>
+        <item name="colorAccent">@color/Progress</item>
+    </style>
+    <style name="MatButton" parent="Theme.MaterialComponents">
+        <item name="colorOnPrimary">#01579B</item>
+        <item name="colorPrimary">#29B6F6</item>
+        <item name="colorOnSurface">#29B6F6</item>
+    </style>
+    <style name="MatButton1" parent="Theme.MaterialComponents">
+        <item name="colorOnPrimary">#2196F3</item>
+        <item name="colorPrimary">#B3E5FC</item>
+        <item name="colorOnSurface">#B3E5FC</item>
+    </style>
+
+</resources>

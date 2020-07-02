@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/newconfirmed"
+        android:layout_width="190dp"
+        android:layout_height="38dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginTop="40dp"
+        android:text="@string/NewConfirmed"
+        android:textColor="@color/letra" />
+
+    <TextView
+        android:id="@+id/txtNewConfirmed"
+        android:layout_width="95dp"
+        android:layout_height="38dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_marginTop="40dp"
+        android:text="@string/numeros"
+        android:textColor="@color/letra" />
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/TotalConfirmed"
+        android:layout_width="191dp"
+        android:layout_height="40dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:text="@string/TotalConfirmed"
+        android:textColor="@color/letra" />
+
+    <TextView
+        android:id="@+id/txtTotalConfirmed"
+        android:layout_width="95dp"
+        android:layout_height="38dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_marginTop="40dp"
+        android:text="@string/numeros"
+        android:textColor="@color/letra" />
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/NewDeaths"
+        android:layout_width="191dp"
+        android:layout_height="40dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:text="@string/TotalDeaths"
+        android:textColor="@color/letra"/>
+
+    <TextView
+        android:id="@+id/txtTotalDeaths"
+        android:layout_width="95dp"
+        android:layout_height="42dp"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_marginTop="40dp"
+        android:text="@string/numeros"
+        android:textColor="@color/letra" />
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/TotalDeaths"
+        android:layout_width="191dp"
+        android:layout_height="40dp"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:text="@string/TotalRecovered"
+        android:textColor="@color/letra"/>
+
+    <TextView
+        android:id="@+id/txtTotalRecovered"
+        android:layout_width="94dp"
+        android:layout_height="42dp"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_marginTop="40dp"
+        android:text="@string/numeros"
+        android:textColor="@color/letra" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="72dp"
+        android:layout_height="40dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:contentDescription="TODO"
+        app:srcCompat="@mipmap/buscar"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="68dp"
+        android:layout_height="36dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        app:srcCompat="@mipmap/grafico"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="67dp"
+        android:layout_height="36dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        app:srcCompat="@mipmap/cama"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="68dp"
+        android:layout_height="39dp"
+        android:layout_row="3"
+        android:layout_column="0"
+        app:srcCompat="@mipmap/ayuda"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+</GridLayout>

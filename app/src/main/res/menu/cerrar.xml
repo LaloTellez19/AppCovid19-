@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/btnMore"
+    android:icon="@drawable/ic_more_horiz_black_24dp"
+    android:title="Mas"
+    app:showAsAction="always">
+    <menu>
+        <item
+            android:id="@+id/btnCerrar"
+            android:icon="@drawable/ic_close"
+            android:title="Cerrar Sesión"
+            ></item>
+    </menu>
+</item>
+</menu>
